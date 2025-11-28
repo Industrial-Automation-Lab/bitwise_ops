@@ -10,6 +10,7 @@
     pkgs.rustfmt
     pkgs.stdenv.cc
     pkgs.gh
+    pkgs.openssh
   ];
   # Sets environment variables in the workspace
   env = {
